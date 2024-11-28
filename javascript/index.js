@@ -3,5 +3,5 @@ const clickMe = document.querySelector("#div-button");
 // console.log(clickMe);
 clickMe.addEventListener("click", testButton);
 function testButton(e) {
-  alert("You have hit your target");
+  alert("You have hit your Home page target");
 }
