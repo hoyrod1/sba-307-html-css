@@ -90,6 +90,12 @@ img.head-shot {
 
 .url-color {
   color: rgb(86, 209, 240);
+  text-decoration: none;
+  transition: 1s linear;
+}
+
+.url-color:hover {
+  color: rgba(255, 166, 0, 0.685);
 }
 
 .title {
