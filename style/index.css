@@ -3,21 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.container {
-  width: 90%;
-  height: 90%;
-  margin: 35px auto;
-  padding: 5px;
-  border-radius: 5px;
-  box-shadow: 1px 1px 25px 3px rgba(255, 166, 0, 0.685);
-}
-
-h1 {
-  color: rgba(255, 166, 0, 0.685);
-  text-align: center;
-  text-decoration: underline;
-}
 /*------------------------------ BEGINNING OF NAV SECTION ------------------------------*/
 ul {
   list-style-type: none;
@@ -48,9 +33,396 @@ li a.active {
   color: white;
   background-color: #9e9189;
 }
-
 /*------------------------------ ENDING OF NAV SECTION ------------------------------*/
+.container {
+  background-color: #383533;
+  width: 60%;
+  height: 90%;
+  margin: 35px auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 25px 3px rgba(255, 166, 0, 0.685);
+}
+.section-one {
+  display: flex;
+  align-content: space-between;
+}
 
+.author-section {
+  margin: 1px auto 50px;
+}
+
+img.head-shot {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.head-author {
+  padding: 20px 0 0 0;
+}
+.head-1-author {
+  font-size: x-large;
+  color: white;
+}
+
+.head-4-author {
+  color: rgb(86, 209, 240);
+}
+
+.author-details {
+  display: flex;
+  gap: 5px;
+}
+.row-data-1 {
+  color: white;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.row-data-2 {
+  color: #9e9189;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.url-color {
+  color: rgb(86, 209, 240);
+}
+
+.title {
+  margin: 10px auto;
+  display: flex;
+  align-content: space-between;
+  gap: 30px;
+}
+
+.head-title {
+  color: rgba(255, 166, 0, 0.685);
+  text-align: center;
+  text-decoration: underline;
+}
+
+.section-two {
+  margin: 0 auto;
+}
+p.description {
+  color: #9e9189;
+}
+/* ----------------------------------------------------------------------------------------*/
+.section-details {
+  margin: 50px 0 0 0;
+  display: flex;
+  gap: 40px;
+}
+
+.employment-education {
+  width: 100%;
+}
+
+.blue-arrow-down {
+  margin: 0 10px 0 0;
+  text-align: center;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-color: rgb(29, 147, 176);
+}
+
+.green-arrow-down {
+  margin: 0 10px 0 0;
+  background-color: green;
+  text-align: center;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
+.heading-employment,
+.heading-education {
+  width: 100%;
+  background-color: rgb(65, 65, 65);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+}
+
+.employment-name-title-detail,
+.education-name-title-detail {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.blue-arrow-right {
+  margin: 0 10px 0 0;
+  text-align: center;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgb(29, 147, 176);
+}
+
+.green-arrow-right {
+  margin: 0 10px 0 0;
+  background-color: green;
+  text-align: center;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.employment-name,
+.education-name {
+  color: white;
+}
+
+.employment-title,
+.education-title {
+  margin: 0 0 0 30px;
+  color: #9e9189;
+}
+
+.employment-date-1,
+.employment-date-2,
+.education-date-1,
+.education-date-2 {
+  color: #9e9189;
+}
+
+.div-section-1,
+.div-section-2 {
+  margin: 20px 0 30px 0;
+}
+
+.employment-section-two,
+.education-section-two {
+  padding: 5px;
+}
+
+.employment-description,
+.education-description {
+  color: #9e9189;
+}
+/*--------------------------------------------------------------------------------*/
+.skills-details {
+  width: 50%;
+}
+
+p.programing-skills,
+p.graphic-skills,
+p.editing-skills {
+  font-size: large;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.graphic-skills,
+.editing-skills {
+  margin: 30px 0 20px 0;
+}
+
+.programing-skill-list {
+  color: #9e9189;
+  padding: 5px;
+}
+
+.bar-container {
+  width: 100%;
+  height: 25px;
+  background-color: rgb(68, 64, 64);
+}
+
+.programing-skill-1,
+.programing-skill-2,
+.programing-skill-3,
+.programing-skill-4,
+.programing-skill-5,
+.programing-skill-6 {
+  margin: 5px 0 5px 0;
+}
+
+.blue-bar {
+  background-color: rgb(10, 105, 152);
+  color: white;
+  height: 100%;
+  width: 60%;
+  text-align: right;
+  padding: 3px 5px 0 0;
+}
+
+.lightblue-bar {
+  background-color: rgb(0, 170, 255);
+  color: white;
+  height: 100%;
+  width: 80%;
+  text-align: right;
+  padding: 3px 5px 0 0;
+}
+
+.green-bar {
+  background-color: green;
+  color: white;
+  height: 100%;
+  width: 72%;
+  text-align: right;
+  padding: 3px 5px 0 0;
+}
+
+.yellow-bar {
+  background-color: rgb(173, 173, 11);
+  color: white;
+  height: 100%;
+  width: 80%;
+  text-align: right;
+  padding: 3px 5px 0 0;
+}
+
+.orange-bar {
+  background-color: orange;
+  color: white;
+  height: 100%;
+  width: 80%;
+  text-align: right;
+  padding: 3px 5px 0 0;
+}
+
+.red-bar {
+  background-color: red;
+  color: white;
+  height: 100%;
+  width: 75%;
+  text-align: right;
+  padding: 3px 5px 0 0;
+}
+/* -----------------------------------------------------------------------------------*/
+.photoshop,
+.indesign,
+.photoshop,
+.after-effects,
+.bridge,
+.illustrator {
+  color: #9e9189;
+  font-size: small;
+}
+
+.blue-square,
+.green-square,
+.yellow-square,
+.red-square,
+.lightblue-square {
+  margin: 0 5px 0 0;
+  text-align: center;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+}
+
+.blue-square {
+  background-color: rgb(49, 117, 220);
+}
+
+.lightblue-square {
+  background-color: lightblue;
+}
+
+.green-square {
+  background-color: green;
+}
+
+.yellow-square {
+  background-color: yellow;
+}
+
+.red-square {
+  background-color: red;
+}
+
+.graphic-skill-1,
+.graphic-skill-2,
+.graphic-skill-3,
+.graphic-skill-4,
+.graphic-skill-5 {
+  margin: 5px 0 5px 0;
+}
+/* -----------------------------------------------------------------------------------*/
+.finalCutPro-circles {
+  display: flex;
+  gap: 15px;
+}
+
+.AdobePremier-circles {
+  display: flex;
+  gap: 12px;
+}
+
+.Imovie-circles {
+  display: flex;
+  gap: 56px;
+}
+
+.AdobePremier-circles,
+.finalCutPro-circles,
+.Imovie-circles {
+  margin: 0 0 5px 0;
+}
+
+.finalCutPro,
+.AdobePremier,
+.Imovie {
+  color: #9e9189;
+}
+
+.finalCutPro-circle-1,
+.finalCutPro-circle-2,
+.finalCutPro-circle-3,
+.finalCutPro-circle-4,
+.finalCutPro-circle-5,
+.AdobePremier-circle-1,
+.AdobePremier-circle-2,
+.AdobePremier-circle-3,
+.AdobePremier-circle-4,
+.AdobePremier-circle-5,
+.Imovie-circle-1,
+.Imovie-circle-2,
+.Imovie-circle-3,
+.Imovie-circle-4,
+.Imovie-circle-5 {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid #9e9189;
+}
+
+.finalCutPro-circle-1,
+.finalCutPro-circle-2,
+.finalCutPro-circle-3,
+.finalCutPro-circle-4 {
+  background-color: rgb(97, 177, 227);
+}
+
+.AdobePremier-circle-1,
+.AdobePremier-circle-2,
+.AdobePremier-circle-3 {
+  background-color: green;
+}
+
+.Imovie-circle-1,
+.Imovie-circle-2,
+.Imovie-circle-3,
+.Imovie-circle-4 {
+  background-color: yellow;
+}
+/*--------------------------------------------------------------------------------*/
 .start-button-div {
   width: 25%;
   margin: 10px auto;
