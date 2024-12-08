@@ -64,8 +64,9 @@ li a.active {
 }
 
 .description-paragraph {
+  width: 80%;
   margin: 10px 0 0 0;
-  font-size: large;
+  font-size: x-large;
 }
 /*------------------------------------------------------------------------------------*/
 /*-------------------------------- CONTACT EMAIL FORM --------------------------------*/
@@ -81,6 +82,16 @@ li a.active {
   margin: 10px auto;
 }
 
+.programming-lang {
+  color: rgb(152, 152, 152);
+  margin: 10px 0 0 0;
+  width: 80%;
+  padding: 5px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
 .email-input-div {
   width: 100%;
   margin: 10px auto;
@@ -94,6 +105,10 @@ li a.active {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
   border-radius: 5px;
+}
+
+.contact-email::placeholder {
+  color: rgb(152, 152, 152);
 }
 
 .submit {
