@@ -5,9 +5,9 @@
 }
 
 .contact-container {
-  width: 90%;
+  width: 75%;
   height: 90%;
-  margin: 15px auto;
+  margin: 25vh auto;
   padding: 5px;
   border-radius: 5px;
   box-shadow: 1px 1px 25px 3px rgb(152, 152, 152);
@@ -50,8 +50,71 @@ li a.active {
 }
 
 /*------------------------------ ENDING OF NAV SECTION ------------------------------*/
+.contact-description-email {
+  margin: 30px 0 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
 
+.contact-description {
+  width: 60%;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.description-paragraph {
+  margin: 10px 0 0 0;
+  font-size: large;
+}
+/*------------------------------------------------------------------------------------*/
+/*-------------------------------- CONTACT EMAIL FORM --------------------------------*/
+.contact-email-div {
+  width: 40%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px;
+  color: rgb(127, 161, 224);
+}
+.form {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.email-input-div {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.contact-email {
+  width: 80%;
+  padding: 5px;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  border-radius: 5px;
+}
+
+.submit {
+  font-size: large;
+  font-weight: bold;
+  color: aliceblue;
+  width: 80%;
+  padding: 10px;
+  background-color: rgb(127, 161, 224);
+  border: none;
+  border-radius: 5px;
+  transition: all 1s linear;
+}
+.submit:hover {
+  background-color: white;
+  color: rgb(127, 161, 224);
+  box-shadow: 1px 1px 10px 3px #9e9189;
+}
+/*------------------------------------------------------------------------------------*/
+/*--------------------------------- CLICK ME BUTTON ----------------------------------*/
 .contact-start-button-div {
+  margin: 30px 0 30px 0;
   width: 25%;
   margin: 10px auto;
 }
@@ -65,10 +128,11 @@ li a.active {
   padding: 10px;
   border-radius: 50%;
   border: none;
-  margin: auto;
+  margin: 20px auto;
   box-shadow: 1px 1px 10px 3px #9e9189;
 }
 /*-----------------------------------------------------------------------------------*/
+/*--------------------------------- FOOTER SECTION ----------------------------------*/
 .contact-footer-logo {
   color: rgb(152, 152, 152);
   text-align: center;

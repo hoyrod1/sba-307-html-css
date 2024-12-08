@@ -54,8 +54,8 @@ li a.active {
   background-size: cover;
   width: 90%;
   height: 90%;
-  margin: 15px auto;
-  padding: 5px;
+  margin: 45px auto;
+  padding: 30px;
   border-radius: 5px;
   box-shadow: 1px 1px 25px 3px rgba(248, 154, 222, 0.685);
 }
