@@ -3,21 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.about-container {
-  width: 90%;
-  height: 90%;
-  margin: 15px auto;
-  padding: 5px;
-  border-radius: 5px;
-  box-shadow: 1px 1px 25px 3px rgba(248, 154, 222, 0.685);
-}
-
-h1 {
-  color: rgb(248, 154, 221);
-  text-align: center;
-  text-decoration: underline;
-}
 /*------------------------------ BEGINNING OF NAV SECTION ------------------------------*/
 ul {
   list-style-type: none;
@@ -48,9 +33,101 @@ li a.active {
   color: white;
   background-color: #9e9189;
 }
+/* --------------------------------------------------------------------------------------*/
+/*------------------------------------ ABOUT SECTION ------------------------------------*/
+.image-about-description {
+  display: flex;
+  gap: 30px;
+}
 
-/*------------------------------ ENDING OF NAV SECTION ------------------------------*/
+.about-image-h1 {
+  color: aliceblue;
+  text-align: center;
+  text-decoration: underline;
+  align-content: center;
+}
 
+.about-container {
+  background-image: url("../images/eye-tech.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 90%;
+  height: 90%;
+  margin: 15px auto;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 25px 3px rgba(248, 154, 222, 0.685);
+}
+
+.about-image-div {
+  padding: 10px;
+}
+
+.about-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 25px 3px rgba(248, 154, 222, 0.685);
+}
+
+.about-title-div {
+  padding: 10px;
+}
+
+.about-title {
+  color: aliceblue;
+  font-size: large;
+}
+/* -------------------------------------------------------------------------------------*/
+.about-section-1,
+.about-section-2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0 30px 0;
+}
+.skills-logo-front-end,
+.skills-logo-back-end {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.html-logo,
+.css-logo,
+.javascript-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 35%;
+}
+
+.php-logo,
+.mysql-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 35%;
+}
+.wordpress-logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 35%;
+}
+
+.html-description,
+.css-description,
+.javascript-description,
+.php-description,
+.wordpress-description,
+.mysql-description {
+  display: flex;
+  gap: 30px;
+}
+
+.description {
+  align-content: center;
+}
+/*----------------------------------- BUTTON SECTION -----------------------------------*/
 .about-start-button-div {
   width: 25%;
   margin: 10px auto;
@@ -68,9 +145,10 @@ li a.active {
   margin: auto;
   box-shadow: 1px 1px 10px 3px rgb(248, 154, 221);
 }
-/*-----------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------*/
+/*---------------------------------- footer section ----------------------------------*/
 .about-footer-logo {
-  color: white;
+  color: rgb(248, 154, 221);
   text-align: center;
 }
 /* -----------------------------------------------------------------------------------*/

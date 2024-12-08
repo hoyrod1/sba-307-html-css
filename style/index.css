@@ -34,6 +34,13 @@ li a.active {
   background-color: #9e9189;
 }
 /*------------------------------ ENDING OF NAV SECTION ------------------------------*/
+
+/* .head-title {
+  color: rgba(255, 166, 0, 0.685);
+  text-align: center;
+  text-decoration: underline;
+} */
+
 .container {
   background-color: #383533;
   width: 60%;
@@ -103,12 +110,6 @@ img.head-shot {
   display: flex;
   align-content: space-between;
   gap: 30px;
-}
-
-.head-title {
-  color: rgba(255, 166, 0, 0.685);
-  text-align: center;
-  text-decoration: underline;
 }
 
 .section-two {
@@ -412,7 +413,8 @@ p.editing-skills {
 .finalCutPro-circle-1,
 .finalCutPro-circle-2,
 .finalCutPro-circle-3,
-.finalCutPro-circle-4 {
+.finalCutPro-circle-4,
+.finalCutPro-circle-5 {
   background-color: rgb(97, 177, 227);
 }
 
@@ -448,7 +450,7 @@ p.editing-skills {
 }
 /*-----------------------------------------------------------------------------------*/
 .footer-logo {
-  color: white;
+  color: #9e9189;
   text-align: center;
 }
 /* -----------------------------------------------------------------------------------*/
