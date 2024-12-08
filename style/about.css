@@ -94,6 +94,13 @@ li a.active {
   gap: 30px;
 }
 
+.front-end-h1,
+.back-end-h1 {
+  color: aliceblue;
+  text-align: center;
+  text-decoration: underline;
+}
+
 .html-logo,
 .css-logo,
 .javascript-logo {
