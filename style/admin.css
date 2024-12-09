@@ -49,25 +49,6 @@ li a.active {
   background-color: #9e9189;
 }
 /*-----------------------------------------------------------------------------------*/
-/*------------------------------- CONTACT DESCRIPTION -------------------------------*/
-.contact-description-email {
-  margin: 30px 0 30px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.contact-description {
-  width: 60%;
-  margin: 10px auto;
-  padding: 5px;
-}
-
-.description-paragraph {
-  margin: 10px 0 0 0;
-  font-size: x-large;
-  text-align: center;
-}
-/*------------------------------------------------------------------------------------*/
 /*-------------------------------- CONTACT EMAIL FORM --------------------------------*/
 .contact-email-div {
   width: 40%;
@@ -96,7 +77,8 @@ li a.active {
   margin: 10px auto;
 }
 
-.contact-email {
+.contact-email,
+.password-email {
   width: 80%;
   padding: 5px;
   font-size: large;
@@ -110,7 +92,8 @@ li a.active {
   color: rgb(152, 152, 152);
 }
 
-.submit {
+.login {
+  margin: 10px 0 0 0;
   font-size: large;
   font-weight: bold;
   color: aliceblue;
@@ -121,12 +104,12 @@ li a.active {
   border-radius: 5px;
   transition: all 1s linear;
 }
-.submit:hover {
+.login:hover {
   background-color: white;
   color: rgb(127, 161, 224);
   box-shadow: 1px 1px 10px 3px #9e9189;
 }
-/*------------------------------------------------------------------------------------*/
+
 /*--------------------------------- CLICK ME BUTTON ----------------------------------*/
 .contact-start-button-div {
   margin: 30px 0 30px 0;
