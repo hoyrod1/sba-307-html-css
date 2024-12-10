@@ -438,7 +438,7 @@ p.editing-skills {
 
 .start-button {
   display: block;
-  font-size: larger;
+  font-size: medium;
   font-weight: bolder;
   width: 50%;
   background-color: rgba(255, 166, 0, 0.685);
