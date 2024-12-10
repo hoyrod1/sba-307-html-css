@@ -438,6 +438,7 @@ p.editing-skills {
 
 .start-button {
   display: block;
+  font-size: larger;
   font-weight: bolder;
   width: 50%;
   background-color: rgba(255, 166, 0, 0.685);
@@ -447,6 +448,13 @@ p.editing-skills {
   border: none;
   margin: auto;
   box-shadow: 1px 1px 10px 3px rgb(120, 42, 42);
+  transition: all 1s linear;
+}
+
+.start-button:hover {
+  background-color: rgb(120, 42, 42);
+  color: rgba(255, 166, 0, 0.685);
+  box-shadow: 1px 1px 10px 3px rgba(255, 166, 0, 0.685);
 }
 /*-----------------------------------------------------------------------------------*/
 .footer-logo {

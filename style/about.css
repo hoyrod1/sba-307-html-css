@@ -142,6 +142,7 @@ li a.active {
 
 .about-start-button {
   display: block;
+  font-size: larger;
   font-weight: bolder;
   width: 50%;
   background-color: rgb(127, 161, 224);
@@ -151,6 +152,13 @@ li a.active {
   border: none;
   margin: auto;
   box-shadow: 1px 1px 10px 3px rgb(248, 154, 221);
+  transition: all 1s linear;
+}
+
+.about-start-button:hover {
+  background-color: rgb(248, 154, 221);
+  color: rgb(49, 115, 239);
+  box-shadow: 1px 1px 10px 3px rgb(49, 115, 239);
 }
 /* -----------------------------------------------------------------------------------*/
 /*---------------------------------- footer section ----------------------------------*/

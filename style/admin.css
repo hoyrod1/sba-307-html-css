@@ -126,6 +126,7 @@ li a.active {
 
 .admin-start-button {
   display: block;
+  font-size: larger;
   font-weight: bolder;
   width: 50%;
   background-color: rgb(127, 161, 224);

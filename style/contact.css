@@ -136,15 +136,23 @@ li a.active {
 
 .contact-start-button {
   display: block;
+  font-size: larger;
   font-weight: bolder;
   width: 50%;
   background-color: rgb(127, 161, 224);
-  color: #282727;
+  color: #67605c;
   padding: 10px;
   border-radius: 50%;
   border: none;
   margin: 20px auto;
   box-shadow: 1px 1px 10px 3px #9e9189;
+  transition: all 1s linear;
+}
+
+.contact-start-button:hover {
+  background-color: #67605c;
+  color: rgb(78, 138, 248);
+  box-shadow: 1px 1px 10px 3px rgb(78, 138, 248);
 }
 /*-----------------------------------------------------------------------------------*/
 /*--------------------------------- FOOTER SECTION ----------------------------------*/
