@@ -1,4 +1,4 @@
-console.log(`==================== Sanity Check For about.js ====================`);
+console.log(`==================== Sanity Check For contact.js ====================`);
 const clickMe = document.querySelector("#contact-div-button");
 // console.log(clickMe);
 clickMe.addEventListener("click", testButton);
