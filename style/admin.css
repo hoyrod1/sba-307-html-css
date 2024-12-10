@@ -4,17 +4,31 @@
   box-sizing: border-box;
 }
 
+#myVideo {
+  object-fit: cover;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+}
+
 .admin-container {
   width: 75%;
   height: 90%;
   margin: 25vh auto;
   padding: 5px;
   border-radius: 5px;
-  box-shadow: 1px 1px 25px 3px rgb(152, 152, 152);
+  box-shadow: 1px 1px 35px 3px rgb(255, 255, 255);
+}
+
+hr.admin-hr {
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .admin-h1 {
-  color: rgb(152, 152, 152);
+  color: rgb(127, 161, 224);
   text-align: center;
   text-decoration: underline;
 }
@@ -32,7 +46,7 @@ li {
 
 li a {
   display: block;
-  color: rgb(7, 7, 7);
+  color: rgb(127, 161, 224);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -40,13 +54,13 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #9e9189;
+  background-color: rgb(127, 161, 224);
   color: white;
 }
 
 li a.active {
   color: white;
-  background-color: #9e9189;
+  background-color: rgb(127, 161, 224);
 }
 /*-----------------------------------------------------------------------------------*/
 /*-------------------------------- CONTACT EMAIL FORM --------------------------------*/
@@ -80,12 +94,9 @@ li a.active {
   border-radius: 5px;
 }
 
-.admin-password-email::placeholder {
-  color: rgb(152, 152, 152);
-}
-
+.admin-password-email::placeholder,
 .admin-contact-email::placeholder {
-  color: rgb(152, 152, 152);
+  color: rgb(127, 161, 224);
 }
 
 .admin-login {
@@ -104,7 +115,7 @@ li a.active {
 .admin-login:hover {
   background-color: white;
   color: rgb(127, 161, 224);
-  box-shadow: 1px 1px 10px 3px #9e9189;
+  box-shadow: 1px 1px 10px 3px rgb(127, 161, 224);
 }
 /*--------------------------------- CLICK ME BUTTON ----------------------------------*/
 .admin-start-button-div {
@@ -118,17 +129,24 @@ li a.active {
   font-weight: bolder;
   width: 50%;
   background-color: rgb(127, 161, 224);
-  color: #282727;
+  color: aliceblue;
   padding: 10px;
   border-radius: 50%;
   border: none;
   margin: 20px auto;
-  box-shadow: 1px 1px 10px 3px #9e9189;
+  cursor: pointer;
+  transition: all 1s linear;
+}
+
+.admin-start-button:hover {
+  background-color: white;
+  color: rgb(127, 161, 224);
+  box-shadow: 1px 1px 10px 3px rgb(127, 161, 224);
 }
 /*-----------------------------------------------------------------------------------*/
 /*--------------------------------- FOOTER SECTION ----------------------------------*/
 .admin-footer-logo {
-  color: rgb(152, 152, 152);
+  color: rgb(127, 161, 224);
   text-align: center;
 }
 /* -----------------------------------------------------------------------------------*/
