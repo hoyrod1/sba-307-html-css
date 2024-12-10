@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.contact-container {
+.admin-container {
   width: 75%;
   height: 90%;
   margin: 25vh auto;
@@ -13,7 +13,7 @@
   box-shadow: 1px 1px 25px 3px rgb(152, 152, 152);
 }
 
-h1 {
+.admin-h1 {
   color: rgb(152, 152, 152);
   text-align: center;
   text-decoration: underline;
@@ -50,35 +50,27 @@ li a.active {
 }
 /*-----------------------------------------------------------------------------------*/
 /*-------------------------------- CONTACT EMAIL FORM --------------------------------*/
-.contact-email-div {
+.admin-email-div {
   width: 40%;
   text-align: center;
   margin: 10px auto;
   padding: 5px;
   color: rgb(127, 161, 224);
 }
-.form {
+
+.admin-form {
   width: 100%;
   margin: 10px auto;
 }
 
-.programming-lang {
-  color: rgb(152, 152, 152);
-  margin: 10px 0 0 0;
-  width: 80%;
-  padding: 5px;
-  font-size: large;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-.email-input-div {
+.admin-email-input-div,
+.admin-password-input-div {
   width: 100%;
   margin: 10px auto;
 }
 
-.contact-email,
-.password-email {
+.admin-contact-email,
+.admin-password-email {
   width: 80%;
   padding: 5px;
   font-size: large;
@@ -88,11 +80,15 @@ li a.active {
   border-radius: 5px;
 }
 
-.contact-email::placeholder {
+.admin-password-email::placeholder {
   color: rgb(152, 152, 152);
 }
 
-.login {
+.admin-contact-email::placeholder {
+  color: rgb(152, 152, 152);
+}
+
+.admin-login {
   margin: 10px 0 0 0;
   font-size: large;
   font-weight: bold;
@@ -104,20 +100,20 @@ li a.active {
   border-radius: 5px;
   transition: all 1s linear;
 }
-.login:hover {
+
+.admin-login:hover {
   background-color: white;
   color: rgb(127, 161, 224);
   box-shadow: 1px 1px 10px 3px #9e9189;
 }
-
 /*--------------------------------- CLICK ME BUTTON ----------------------------------*/
-.contact-start-button-div {
+.admin-start-button-div {
   margin: 30px 0 30px 0;
   width: 25%;
   margin: 10px auto;
 }
 
-.contact-start-button {
+.admin-start-button {
   display: block;
   font-weight: bolder;
   width: 50%;
@@ -131,7 +127,7 @@ li a.active {
 }
 /*-----------------------------------------------------------------------------------*/
 /*--------------------------------- FOOTER SECTION ----------------------------------*/
-.contact-footer-logo {
+.admin-footer-logo {
   color: rgb(152, 152, 152);
   text-align: center;
 }
