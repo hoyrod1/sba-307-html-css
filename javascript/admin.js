@@ -1,5 +1,5 @@
 console.log(`==================== Sanity Check For about.js ====================`);
-const clickMe = document.querySelector("#contact-div-button");
+const clickMe = document.querySelector("#admin-div-button");
 // console.log(clickMe);
 clickMe.addEventListener("click", testButton);
 function testButton(e) {
